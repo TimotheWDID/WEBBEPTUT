@@ -1,0 +1,180 @@
+/*
+££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££
+££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££
+
+#########################################################   BIENVENUE A TOI VISITEUR !!!!!   #######################################################################
+
+!!!!!!!!!!!!!!!!!!!!!----------------------     TU RENTRE ICI SUR LE TERRITOIRE DU DUC MAXIME DE CAVERIVIERE   -------------------------------!!!!!!!!!!!!!!!!!!!!!!
+
+******************************                               VOICI LE CSS DU BLOG DE WEBBE                            **********************************************
+
+££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££
+££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££
+*/
+
+
+body{
+	background-color: white;
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*********************************************************/
+/*               IMAGE EN HAUT DE L'ARTICLE              */
+/*********************************************************/		
+
+#backgroundblog{
+	background-image: url(../img/entete.png);
+	background-size: cover;
+	width: 100%;
+	height: 45vh;
+	padding-top: 13vh;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#backgroundmention{
+	background-color: white;
+	width: 100%;
+	height: 45vh;
+	padding-top: 13vh;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#backgroundmention>#colbase>h1{
+	position: absolute;
+	padding-left: 40px;
+	top: 100px;
+	left: -40px;
+	margin: 0px;
+	font-weight: 900;
+	font-size: 90px;
+	color: black;	
+	border-left: 20px solid black;
+}
+
+.filtrebleu{
+	box-shadow: inset 2000px 0 0 0 rgba(0, 148, 148, 0.5);
+}
+
+#colbase{
+	display: flex;
+	width: 1024px;
+	justify-content: space-between;
+	flex-direction: column;
+	position: relative;
+}
+
+#backgroundblog>#colbase>h1{
+	position: absolute;
+	padding-left: 40px;
+	top: 100px;
+	left: -40px;
+	margin: 0px;
+	font-weight: 900;
+	font-size: 90px;
+	color: #F5F2DC;	
+	border-left: 20px solid #F5F2DC;
+}
+
+/*********************************************************/
+/*                      COLONNES                         */
+/*********************************************************/	
+
+.col100full{
+	width: 100%;
+	background-color: #FF5729;
+}
+		
+#col100blog{
+	width: 1024px;
+	margin: auto;
+	z-index: 1;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+#col100blog>#menubis{
+	flex-direction: row;
+	margin-top: 15px;
+}
+
+
+#col25{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 25%;
+	padding: 30px;
+	padding-top: 40px;
+}
+
+#col33{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 33.33%;
+	padding: 60px;
+	padding-top: 40px;
+}
+
+#col50{
+	width: 50%;
+}
+
+#colfull{
+	display: flex;
+	width: 100%;
+	margin: auto;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #FF5729;
+}
+
+/*********************************************************/
+/*         ARTICLE + IMAGE + COULEUR DE FOND             */
+/*********************************************************/	
+
+
+#fullcouleur{
+	width: 100%;
+	background-color: #FF5729;
+	display: flex;
+	justify-content: center;
+	align-content: center; 
+	margin-top: 30px;
+}
+
+#col100couleur{
+	width: 1024px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 850px;
+}
+
+#col50couleur{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#col50couleurimg{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+#textplus{
+	position: absolute;
+	width: 1024px;
+	margin-top: 650px;
+}
