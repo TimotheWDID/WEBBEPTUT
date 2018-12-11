@@ -402,6 +402,10 @@ html {
 	color: white;
 }
 
+.about>div>img{
+	height: 100px;
+}
+
 #col100>.about>div {
 	width: 100px;
 	height: 100px;

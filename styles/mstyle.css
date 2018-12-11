@@ -1,4 +1,6 @@
-
+.fullscreen-bg{
+    display: none;
+}
 img{
     width: 10vw;
 }
@@ -20,7 +22,7 @@ html {
     display: grid;
     grid-template-areas: "p1" "p2" "p3" "p4" "p5" "footer" ;
     grid-template-columns: 100vw ;
-    grid-template-rows: repeat(4,100vh) 20vh ;
+    grid-template-rows: repeat(5,100vh) 20vh ;
 }
 #pdd{
     display: none;
@@ -57,9 +59,6 @@ html {
     grid-template-columns: 20vw 80vw;
     grid-template-areas: "imgheader aheader";
     align-items: center;
-}
-#col-header{
-    
 }
 #menu-principal{
     text-align: center;
@@ -130,13 +129,74 @@ html {
     margin: 0;
 }
 #col33>p{
-    margin: 0;
+    margin: 0 7vw 0 7vw;
+}
+#ancre-service{
+    position: absolute;
+    margin-top: -7vh;
 }
 
+/**********************************************************/
+/*                         BLOG                           */
+/**********************************************************/
 
+#contprinc{
+    background: gray;
+    display: grid;
+    grid-template-areas: "content1 content2" "content3 content4" ;
+    grid-template-columns: 50vw 50vw ;
+    grid-template-rows: 50vh 50vh ;
+}
+#cont1{
+    grid-area: content1 ;
+    background-image: url("../img/client1.jpg");
+	background-size: cover;
+    background-position: center;
+}
+#cont2{
+    grid-area: content2 ;
+    background-image: url("../img/client2.jpg");
+	background-size: cover;
+    background-position: center;
+}
+#cont3{
+    grid-area: content3 ;
+    background-image: url("../img/client3.jpg");
+	background-size: cover;
+    background-position: center;
+}
+#cont4{
+    grid-area: content4 ;
+    background-image: url("../img/client4.jpg");
+	background-size: cover;
+    background-position: center;
+}
+/*********************************************************/
+/*                 PRESENTATION DE LEQUIPE               */
+/*********************************************************/
+#col100{
+    text-align: center;
+}
+#col100>img{
+    background: #00000022;
+    margin:auto;
+    width: 100vw;
+}
+.about>div>img{
 
+    width: 20vw;
+}
+.about>p{
+    display: none;
+}
+.about>a{
+    display: none;
+}
+.about>h3{ margin: 0;}
 
-
+#background-footer>#col100{
+    height: 20vh;
+}
 
 
 

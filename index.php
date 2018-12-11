@@ -162,11 +162,11 @@
 
 			<div id="full" class="filtre-blanc" onclick="agrandir(this)">
 
-				<!-- <div class="fullscreen-bg">
+				<div class="fullscreen-bg">
 					<video loop muted autoplay poster="video/video_presentation_webbe.mp4" class="fullscreen-bg__video" id="videof">
 						<source src="video/video_presentation_webbe.mp4" type="video/mp4">
 					</video>
-				</div> -->
+				</div>
 
 				<div id="video">
 
@@ -191,9 +191,8 @@
 
 
 					<!-- MAXIME CAVERIVIERE -->
-
 					<div class="about" id="col25">
-						<div><img src="img/tete4.png" style="width: 100%"></div> <!-- photo -->
+						<div><img src="img/tete4.png"></div> <!-- photo -->
 
 						<h3 style="color: #454445">MAXIME CAVERIVIERE</h3>
 
@@ -207,7 +206,7 @@
 					<!-- BASTIEN ORLANDINI -->
 
 					<div class="about" id="col25">
-						<div> <img src="img/tete3.png" style="width: 100%"></div> <!-- photo -->
+						<div> <img src="img/tete3.png"></div> <!-- photo -->
 
 						<h3 style="color: #454445">BASTIEN ORLANDINI</h3>
 
@@ -221,7 +220,7 @@
 					<!-- YANN LEHE -->
 
 					<div class="about" id="col25">
-						<div><img src="img/tete1.png" style="width: 100%"></div> <!-- photo -->
+						<div><img src="img/tete1.png"></div> <!-- photo -->
 
 						<h3 style="color: #454445">YANN LEHE</h3>
 
@@ -236,7 +235,7 @@
 					<!-- THIMOTHE PORTELLI -->
 
 					<div class="about" id="col25">
-						<div><img src="img/tete2.png" style="width: 100%"></div> <!-- photo -->
+						<div><img src="img/tete2.png"></div> <!-- photo -->
 
 						<h3 style="color: #454445">TIMOTHE PORTELLI</h3>
 
